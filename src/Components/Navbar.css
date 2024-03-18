@@ -1,0 +1,57 @@
+.navbar-collapse{
+    margin-left:610px;
+    border-radius:20px;
+}
+
+@media screen and (min-width:967px) and (max-width:1294px) {
+    .navbar-collapse{
+        margin-left:100px;
+    }
+}
+
+@media (max-width:900px) {
+    .navbar-collapse {
+      position: fixed;
+      top:0px;
+      left:-70%;
+      width:80%;
+      height:100%;
+      margin-left:0px;
+      background-color:#0a192f; /* Customize as needed */
+      transition: left 0.1s ease;
+      z-index:1000; /* Ensure it's above other content */
+    }
+}
+
+.navbar-toggler-icon{
+    border:2px solid white;
+    border-radius:5px;
+}
+
+.nav-link{
+margin-left:15px;
+}
+
+@media (max-width:767px) {
+    .nav-link {
+    margin-top:10px;
+    margin-left:10px;
+    color:#e7eef9;
+    }
+}
+
+.navbar-collapse.show {
+      left:0;
+    }
+    
+    .nav-item button{
+        border-radius:10px;
+        border:1px solid #0a192f;
+    }
+    
+    @media (max-width: 767px) {
+        .nav-item button{
+            border:none;
+        }
+    }
+    
