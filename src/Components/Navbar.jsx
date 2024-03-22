@@ -30,12 +30,9 @@ function Navbar() {
             </li>
                       
             <li className="nav-item">
-            <a style={{color:"White"}} className="nav-link active" aria-current="page" href="/">Resume</a>
+            <a style={{color:"White"}} className="nav-link active" aria-current="page" href="/">N-Projects</a>
             </li>
-                      
-            <li className="nav-item">
-            <a style={{color:"White"}} className="nav-link active" aria-current="page" href="/">Resume</a>
-            </li>
+                    
                       
           </ul>
          

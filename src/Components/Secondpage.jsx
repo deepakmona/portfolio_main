@@ -21,12 +21,12 @@ export default function Secondpage() {
             <p>Here are a few technologies I’ve been working with recently:</p>
 
             <div className="techlang">
-              <button>hello you</button>
-              <button>hello you</button>
-              <button>hello you</button>
-              <button>hello you</button>
-              <button>hello you</button>
-              <button>hello you</button>
+              <button>React js</button>
+              <button>Javascript</button>
+              <button>Aos</button>
+              <button>React-Bootstrap</button>
+              <button>Css</button>
+              <button>Smtp</button>
             </div>
 
 

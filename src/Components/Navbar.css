@@ -40,6 +40,13 @@ margin-left:15px;
     }
 }
 
+@media screen and (min-width:768px)  and (max-width:1400px) {
+    .nav-link{
+        padding-top:50px;
+        font-size:22px;
+    }
+}
+
 .navbar-collapse.show {
       left:0;
     }
@@ -50,8 +57,11 @@ margin-left:15px;
     }
     
     @media (max-width: 767px) {
-        .nav-item button{
-            border:none;
+        .navbar-toggler{
+        margin-top:0px;
         }
     }
+    
+    
+    
     
