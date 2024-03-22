@@ -50,7 +50,7 @@ export default function Thirdpage() {
         </div>
         <div className="techlang">
           <button>react js</button>
-          <button>Javascript</button>
+          <button>JS</button>
           <button>css</button>
           <button>smtp </button>
         </div>
@@ -72,7 +72,7 @@ export default function Thirdpage() {
         </div>
         <div className="techlang">
           <button>react js</button>
-          <button>Javascript</button>
+          <button>JS</button>
           <button>Aos</button>
           <button>Routes</button>
         </div>
@@ -94,7 +94,7 @@ export default function Thirdpage() {
         </div>
         <div className="techlang">
           <button>react js</button>
-          <button>Javascript</button>
+          <button>JS</button>
           <button>Aos</button>
           <button>Routes</button>
         </div>
