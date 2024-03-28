@@ -4,9 +4,31 @@ import { BsTwitterX } from "react-icons/bs";
 import { CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { FaReddit } from "react-icons/fa";
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 
 export default function Fifthpage() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_4pbulxd', '__ejs-test-mail-service__', form.current, {
+        publicKey: 'cFochbQ771rQN3gwe',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <div>
       
@@ -15,11 +37,12 @@ export default function Fifthpage() {
         <div className="contact">
             <p>Let us bridge the gap between opportunity and connection—reach out, and let us connect right here</p>
 
-            <form action="">
-            <input type="text" name="name" id="name" placeholder="Enter your name here" /><br />
-            <input type="email" name="email" id="email"  placeholder="Enter  your email address"/><br />
+            <form ref={form} onSubmit={sendEmail} action="">
+            <input type="text" name="user_name" id="name" placeholder="Enter your name here" /><br />
+            <input type="email" name="user_email" id="email"  placeholder="Enter  your email address"/><br />
             <input type="number" name="number" id="number" placeholder="Enter your mobile number" /><br />
-            <button type="submit">Submit</button>
+            <button type="submit" value="Send">Submit</button>
+          
             </form>
           <div className="social">
           <FaGithub id="ic" size={45}/>
