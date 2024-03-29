@@ -16,12 +16,12 @@ export default function Fifthpage() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_4pbulxd', '__ejs-test-mail-service__', form.current, {
+      .sendForm('service_7nga6vq', 'template_yc4e13e', form.current, {
         publicKey: 'cFochbQ771rQN3gwe',
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          alert('Thankyou for connect with me.Now you have sucessfully connected.');
         },
         (error) => {
           console.log('FAILED...', error.text);
