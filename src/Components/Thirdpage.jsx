@@ -86,7 +86,7 @@ export default function Thirdpage() {
       <div className="firsthalf"><img src={tanisq} alt="error" /></div>
       <div className="firsthalf">
       <a href=""><FaSquareGithub id="git"/></a>
-      <a href=""><GoLink id="link" /></a>
+      <a href="https://mdgroupjewellery.netlify.app"><GoLink id="link" /></a>
         <h5>Jewwork. Project </h5>
         <p>Jewwork.</p>
         <div className="brifdes">
