@@ -26,8 +26,9 @@ export default function Fifthpage() {
         (error) => {
           console.log('FAILED...', error.text);
         },
-      );
-  };
+        );
+        form.current.reset();
+    };
 
   return (
     <div>
