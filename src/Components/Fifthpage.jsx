@@ -46,11 +46,11 @@ export default function Fifthpage() {
           
             </form>
           <div className="social">
-          <FaGithub id="ic" size={45}/>
-          <CiLinkedin id="ic" size={45}/>
-          <BsTwitterX id="ic" size={45}/>
-          <FaInstagram id="ic" size={45}/>
-          <FaReddit id="ic" size={45}/>
+         <a href="https://github.com/deepakmona"><FaGithub id="ic" size={45}/></a> 
+         <a href="https://www.linkedin.com/in/deepak-kumar-12b12a213"><CiLinkedin id="ic" size={45}/></a> 
+         <a href=""><BsTwitterX id="ic" size={45}/></a> 
+         <a href="https://www.instagram.com/code_with_deepu_?igsh=MXNlbnRxcHhjeXE4eA=="><FaInstagram id="ic" size={45}/></a> 
+         <a href=""><FaReddit id="ic" size={45}/></a> 
           </div>
 
 
