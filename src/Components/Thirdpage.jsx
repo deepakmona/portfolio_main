@@ -18,7 +18,7 @@ export default function Thirdpage() {
       <div className="firstprject">
       <div className="firsthalf"><img src={property} alt="error" /></div>
       <div className="firsthalf">
-      <a href=""><FaSquareGithub id="git"/></a>
+      <a href="https://github.com/deepakmona"><FaSquareGithub id="git"/></a>
       <a href="https://streamproperty.netlify.app"><GoLink id="link" /></a>
         <h5>Property Booking Project </h5>
         <p>Dreamproperty.</p>
@@ -41,7 +41,7 @@ export default function Thirdpage() {
 <div className="firstprject">
       <div className="firsthalf"><img src={cafe} alt="error" /></div>
       <div className="firsthalf">
-      <a href=""><FaSquareGithub id="git"/></a>
+      <a href="https://github.com/deepakmona"><FaSquareGithub id="git"/></a>
       <a href="https://apanacafe.netlify.app"><GoLink id="link" /></a>
         <h5>Dreamcafe Booking Project </h5>
         <p>Dreamcafe</p>
@@ -63,7 +63,7 @@ export default function Thirdpage() {
 <div className="firstprject">
       <div className="firsthalf"><img src={honasa} alt="error" /></div>
       <div className="firsthalf">
-      <a href=""><FaSquareGithub id="git"/></a>
+      <a href="https://github.com/deepakmona"><FaSquareGithub id="git"/></a>
       <a href="https://portfoliomainmd.netlify.app"><GoLink id="link" /></a>
         <h5>Portfolio Project </h5>
         <p>Honasa.</p>
@@ -85,7 +85,7 @@ export default function Thirdpage() {
 <div className="firstprject">
       <div className="firsthalf"><img src={tanisq} alt="error" /></div>
       <div className="firsthalf">
-      <a href=""><FaSquareGithub id="git"/></a>
+      <a href="https://github.com/deepakmona"><FaSquareGithub id="git"/></a>
       <a href="https://mdgroupjewellery.netlify.app"><GoLink id="link" /></a>
         <h5>Jewwork. Project </h5>
         <p>Jewwork.</p>
