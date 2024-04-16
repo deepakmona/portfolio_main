@@ -48,7 +48,7 @@ export default function Fifthpage() {
           <div className="social">
          <a href="https://github.com/deepakmona"><FaGithub id="ic" size={45}/></a> 
          <a href="https://www.linkedin.com/in/deepak-kumar-12b12a213"><CiLinkedin id="ic" size={45}/></a> 
-         <a href=""><BsTwitterX id="ic" size={45}/></a> 
+         <a href="https://x.com/Deepakguddu3322?t=db8D3qXkNNBnLpNuu5Of-Q&s=09"><BsTwitterX id="ic" size={45}/></a> 
          <a href="https://www.instagram.com/code_with_deepu_?igsh=MXNlbnRxcHhjeXE4eA=="><FaInstagram id="ic" size={45}/></a> 
          <a href=""><FaReddit id="ic" size={45}/></a> 
           </div>
