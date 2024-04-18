@@ -11,7 +11,7 @@ import tanisq from "../assets/tanishqlaptop.png"
 export default function Thirdpage() {
   return (
     <div>
-      <div className="thirdpage">
+      <div id="projects" className="thirdpage">
         <img src={line} alt="error"/>
         <h2 id="head">Some Things I have Built</h2>
 
@@ -68,7 +68,7 @@ export default function Thirdpage() {
         <h5>Portfolio Project </h5>
         <p>Honasa.</p>
         <div className="brifdes">
-          <p>I built a modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance using React JS, Appwrite, JavaScript, and more.</p>
+          <p>I built a modern Portfolio with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance using React JS, Appwrite, JavaScript, and more.</p>
         </div>
         <div className="techlang">
           <button>react js</button>

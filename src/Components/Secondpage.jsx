@@ -5,7 +5,7 @@ import line from "../assets/Line-Design.svg";
 export default function Secondpage() {
   return (
     <div>
-      <div className="secondpage">
+      <div id='about' className="secondpage">
       <img id='line' src={line} alt="error"/>
         <h2 id='about'>@About Me !</h2>
 

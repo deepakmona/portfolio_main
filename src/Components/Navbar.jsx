@@ -1,7 +1,10 @@
 import './Navbar.css';
+import { BrowserRouter } from 'react-router-dom';
+
 
 function Navbar() {
   return (
+    <BrowserRouter>
     <nav className="navbar navbar-expand-lg navbar-#0a192f bg-#0a192f">
       <div className="container-fluid">
         <a style={{color:"White"}} className="navbar-brand" href="/">Portfolio</a>
@@ -14,23 +17,23 @@ function Navbar() {
               <a style={{color:"White"}} className="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a style={{color:"White"}} className="nav-link active" aria-current="page" href="/">About</a>
+              <a style={{color:"White"}} className="nav-link active" aria-current="page" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a style={{color:"White"}} className="nav-link active" aria-current="page" href="/">Projects</a>
+              <a style={{color:"White"}} className="nav-link active" aria-current="page" href="#projects">Projects</a>
             </li>
             <li className="nav-item">
               <a style={{color:"White"}} className="nav-link active" aria-current="page" href="/">Education</a>
             </li>
             <li className="nav-item">
-              <a style={{color:"White"}} className="nav-link active" aria-current="page" href="/">Contact</a>
+              <a style={{color:"White"}} className="nav-link active" aria-current="page" href="#contact">Contact</a>
             </li>
             <li className="nav-item">
-            <a style={{color:"White"}} className="nav-link active" aria-current="page" href="/">Resume</a>
+            <a style={{color:"White"}} className="nav-link active" aria-current="page" href="https://drive.google.com/file/d/1xDi2_p94tyVa6WOUzv061_stbzR8HpdZ/view?usp=sharing">Resume</a>
             </li>
                       
             <li className="nav-item">
-            <a style={{color:"White"}} className="nav-link active" aria-current="page" href="/">N-Projects</a>
+            <a style={{color:"White"}} className="nav-link active" aria-current="page" href="#nprojects">N-Projects</a>
             </li>
                     
                       
@@ -39,6 +42,7 @@ function Navbar() {
         </div>
       </div>
     </nav>
+    </BrowserRouter>
   );
 }
 

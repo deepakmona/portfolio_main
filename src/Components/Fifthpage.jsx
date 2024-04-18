@@ -33,7 +33,7 @@ export default function Fifthpage() {
   return (
     <div>
       
-      <div className="loginpage">
+      <div id="contact" className="loginpage">
         <h3>Connect with me here !</h3>
         <div className="contact">
             <p>Let us bridge the gap between opportunity and connection—reach out, and let us connect right here</p>

@@ -16,7 +16,7 @@ export default function Fourthpage() {
 
 	return (
 		<div>
-			<div className="fourthpage">
+			<div id="nprojects" className="fourthpage">
 				<h2 id="headoffourth">Other Noteworthy Projects</h2>
 				<div className="percentfourth">
 					<div data-aos="flip-right" className="cardof"> 

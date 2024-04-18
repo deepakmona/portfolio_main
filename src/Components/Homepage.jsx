@@ -12,7 +12,7 @@ export default function Homepage() {
         <h1>Front-End React</h1>
         <h1>Developer</h1>
         <p id='secondp'>I am a passionate front-end developer specialized in building exceptional web apps from Jhunjhunu Rajasthan, India 📍</p>
-        <button><a href="">Get in touch !</a></button>
+        <button><a href="#contact">Get in touch !</a></button>
         
       </div>
 
